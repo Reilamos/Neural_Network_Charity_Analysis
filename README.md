@@ -16,7 +16,7 @@ I first preprocessed the data, then compiled, trained, and evaluated the model. 
   - What variable(s) are neither targets nor features, and should be removed from the input data? EIN, NAME (SPECIAL_CONSIDERATIONS removed during one optimization attampt)
 
 - Compiling, Training, and Evaluating the Model
-  - How many neurons, layers, and activation functions did you select for your neural network model, and why? The initial model includes a single input features & two hidden layers. The first hidden layer has 50 neurons, the second has 25. Additionally, each of the hidden layers employed the "relu" activation method, the output layer I used the "sigmoid" activation.
+  - How many neurons, layers, and activation functions did you select for your neural network model, and why? The initial model includes a single input features and two hidden layers. The first hidden layer has 50 neurons, the second has 25. Additionally, each of the hidden layers employed the "relu" activation method, the output layer I used the "sigmoid" activation.
   - Were you able to achieve the target model performance? I reached almost 73.1% accuracy.
   - What steps did you take to try and increase model performance?
     1. First attempt: Reduced the application_counts to less than 500 and the classification_counts to less than 800; increased neurons to 80 and 30 respectively.
