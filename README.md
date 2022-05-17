@@ -12,8 +12,8 @@ I first preprocessed the data, then compiled, trained, and evaluated the model. 
 
 - Data Processing
   - What variable(s) are considered the target(s) for your model? IS_SUCCESSFUL
-  - What variable(s) are considered to be the features for your model? APPLICATION_TYPE, AFFILIATION, CLASSIFICATION,             USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, PECIAL_CONSIDERATIONS, ASK_AMT
-  - What variable(s) are neither targets nor features, and should be removed from the input data? EIN, NAME                       (SPECIAL_CONSIDERATIONS removed during one of the optimization attampts)
+  - What variable(s) are considered to be the features for your model? APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, PECIAL_CONSIDERATIONS, ASK_AMT
+  - What variable(s) are neither targets nor features, and should be removed from the input data? EIN, NAME (SPECIAL_CONSIDERATIONS removed during one optimization attampt)
 
 - Compiling, Training, and Evaluating the Model
   - How many neurons, layers, and activation functions did you select for your neural network model, and why? The initial model includes a single input features & two hidden layers. The first hidden layer has 50 neurons, the second has 25. Additionally, each of the hidden layers employed the "relu" activation method, the output layer I used the "sigmoid" activation.
