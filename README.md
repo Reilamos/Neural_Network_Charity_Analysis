@@ -20,9 +20,9 @@ I first preprocessed the data, then compiled, trained, and evaluated the model. 
   - Were you able to achieve the target model performance? I reached almost 72% accuracy.
   - What steps did you take to try and increase model performance?
     1. First attempt: Reduced the application_counts to less than 500 and the classification_counts to les than 800; increased neurons to 80 and 30 respectively.
-    2. Second attempt: Dropped SPECIAL_CONSIDERATIONS for the prevalance of "N" for the value, returned application_counts to less than 700 and classification_counts to less than 1800; returned hidden layers to original values and added a third hidden layer with 25 neurons.
+    2. Second attempt: Dropped SPECIAL_CONSIDERATIONS for the prevalance of "N" for the value, returned application_counts to less than 700 and classification_counts to less than 1800; returned hidden layers to original values. Then added a third hidden layer with 25 neurons.
     3. Third attempt: Dropped the third hidden layer and changed the activation method for the output layer to "tanh"
 
 ## Summary
 
-After optimizing the data set 3 times I was unable to reach 75% accuracy. The Random Forest Classifier may work better witht this supervised machine learning model. 
+After optimizing the data set 3 times I was unable to reach 75% accuracy. The Random Forest Classifier may work better with this supervised machine learning model. 
